@@ -28,7 +28,7 @@ float: left;
       width: 100%;
     }
 
-/*Media Query to Adapt Screen to iPhone Retina*/
+
 @media only screen and (max-width : 800px) {
     .gridWrapper {
         width: 80%;
@@ -39,7 +39,7 @@ float: left;
         margin-bottom: 10px
       }
      }
-/*Media Query to Adapt Screen to iPhone*/
+
 @media only screen and (max-width : 320px) {
     .gridWrapper {
         width: 100%;
