@@ -143,8 +143,27 @@ form div textarea {
 
 .submit :hover{
     cursor: pointer;
-    background-color: white;
+    background-color: #DC911B;
     transition: 0.3s;
+}
+.zelf h2 {font-family: 'Quicksand', sans-serif;
+    padding: 10px 0px;
+    font-weight: bold;
+    font-size: 2em;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+   
+.zelf p {
+    display: block;
+    margin: 0 auto;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.1em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    text-align: center;
 }
 .fowto{
     
