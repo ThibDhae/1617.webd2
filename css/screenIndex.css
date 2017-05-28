@@ -148,12 +148,12 @@ form div textarea {
 }
 .fowto{
     
-    width:600px;
+    width:200px;
     
 }
 .teks{
-    width:600px;
-    margin-top: 20px;
+    width:200px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     
@@ -168,17 +168,51 @@ form div textarea {
     margin-bottom: 10px;
 }
 .teks h1{ font-family: 'Quicksand', sans-serif;
-    padding: 10px 0px;
+    padding: 5px 0px;
     font-weight: bold;
     font-size: 2em;
-    width: 250px;
+    width: 200px;
     text-align: center;
     margin: 0 auto;
     
 }
 
+@media(min-width:500px)
+{
+   .teks img{
+    
+    width:400px;
+    
+}
+.teks{
+    width:400px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
-@media(min-width:800px) {
+.teks  p{
+     display: block;
+    margin: 0 auto;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.teks h1{ font-family: 'Quicksand', sans-serif;
+    padding: 5px 0px;
+    font-weight: bold;
+    font-size: 2em;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+}
+@media(min-width:800px)
+
+{
     .grid_row {
         display: flex;
     }
@@ -241,14 +275,47 @@ form div textarea {
     .name{
         margin-top: 50px
     }
-}
+
 .map{
     margin-top: 40px;
     margin-left: 360px;
 }
+.teks img{
+    
+    width:600px;
+    
+}
+.teks{
+    width:600px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
-@media(min-width:1100px) {
-    .grid-column-3 {
+.teks  p{
+     display: block;
+    margin: 0 auto;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.teks h1{ font-family: 'Quicksand', sans-serif;
+    padding: 5px 0px;
+    font-weight: bold;
+    font-size: 2em;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+    }
+
+@media(min-width:1100px)
+{
+
+ .grid-column-3 {
         width: 23, 80%;
         display: inline-block;
     }
@@ -266,8 +333,37 @@ form div textarea {
     .team h1 {
         max-width: 200px;
     }
+.teks img{
+    
+    width:600px;
     
 }
+.teks{
+    width:600px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.teks  p{
+     display: block;
+    margin: 0 auto;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.teks h1{ font-family: 'Quicksand', sans-serif;
+    padding: 5px 0px;
+    font-weight: bold;
+    font-size: 2em;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+    
 .footer-distributed{
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -281,13 +377,13 @@ form div textarea {
 	overflow: hidden;
 }
 
-/* Footer left */
+
 
 .footer-distributed .footer-left{
 	float: center;
 }
 
-/* The company logo */
+
 
 .footer-distributed h3{
 	color:  #ffffff;
@@ -299,7 +395,7 @@ form div textarea {
 	color:  #5383d3;
 }
 
-/* Footer links */
+
 
 .footer-distributed .footer-links{
 	color:  #ffffff;
@@ -321,7 +417,6 @@ form div textarea {
 	margin: 0;
 }
 
-/* Footer social icons */
 
 .footer-distributed .footer-icons{
 	margin-top: 40px;
